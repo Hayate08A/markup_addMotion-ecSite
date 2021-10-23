@@ -100,6 +100,11 @@ header button {
   height: 400px;
   object-fit: cover;
   position: absolute;
+  opacity: 0;
+}
+
+.hero img.current {
+  opacity: 1;
 }
 
 /* products */
